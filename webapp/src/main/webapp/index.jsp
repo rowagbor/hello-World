@@ -4,10 +4,10 @@
   </div>
 
   <div class="container">
-    <label for="uname"><b>New3 Username</b></label>
+    <label for="uname"><b>New4 Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
 
-    <label for="psw"><b>New3 Password</b></label>
+    <label for="psw"><b>New4 Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
 
     <button type="submit">Login Now OK </button>
