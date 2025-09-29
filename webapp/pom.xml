@@ -16,7 +16,16 @@
 
   <build>
     <finalName>${project.artifactId}</finalName>
+  
+        <plugins>
 
+    <!-- ✅ Modern WAR plugin -->
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version>
+    </plugin>
+     
     <plugins>
       <plugin>
         <groupId>org.mortbay.jetty</groupId>
